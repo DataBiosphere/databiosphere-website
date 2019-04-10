@@ -25,11 +25,12 @@ install:
   - cd ${TRAVIS_BUILD_DIR}
 
 script:
+  - cd databiosphere
   - hugo
 
 deploy:
   - provider: pages
     edge: true
     github_token: ${GITHUB_TOKEN}
-    local_dir: public
+    local_dir: databiosphere/public
     skip_cleanup: true
