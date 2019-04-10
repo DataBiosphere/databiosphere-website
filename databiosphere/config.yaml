@@ -1,6 +1,6 @@
 baseURL: https://databiosphere.github.io/databiosphere-website/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: the Data Biosphere
 theme: hugo-fresh
 
 params:
