@@ -32,7 +32,7 @@ Next steps:
 
 ## Automatic Deployment
 
-This repo is setup to automatically build on [TravisCI](https://travis-ci.org/DataBiosphere/databiosphere-website) and deploy to GitHub pages.  This means any changes you make to the files here will automatically deployed to https://databiosphere-website.github.io
+This repo is setup to automatically build on [TravisCI](https://travis-ci.org/DataBiosphere/databiosphere-website) and deploy to GitHub pages.  This means any changes you make to the files here will automatically deployed to https://databiosphere.github.io/databiosphere-website/
 
 ## Install
 
