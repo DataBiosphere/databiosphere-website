@@ -4,7 +4,7 @@ A place to collect content for a data biosphere website.  Right now this is just
 
 ## Hugo-based Website
 
-This uses Hugo which lets us write content in Markdown and apply themes to get a pretty website.
+This uses [Hugo](https://gohugo.io/) which lets us write content in Markdown and apply themes to get a pretty website.
 
 Things we want to touch on in the website:
 
