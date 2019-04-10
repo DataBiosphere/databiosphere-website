@@ -7,16 +7,29 @@ A place to collect content for a data biosphere website.  Right now this is just
 This uses Hugo which lets us write content in Markdown and apply themes to get a pretty website.
 
 Things we want to touch on in the website:
-
-* mission... Apache for biomedical research
-* who are the users of Data Biosphere?
+ 
+* vision, mission... Apache for biomedical research
+  * diagram: updated version of the arch diagram
+  * who's a part of Data Biosphere
+  * join us, learn more
+* implementations
+  * modules and data environments
+  * diagram: examples in practice
+  * datasets connected with the implementations
+* Who benefits from the Data Biosphere?  
   * Funders - efficiency, repository of reusable vetted components
   * Data Creators & Stewards - off-the-shelf standards based interoperabile components
   * Tool Developers - distribution platform that supports open source licenses
   * Researchers (Consumers) - trusted components that support the community. Share my work with like-minded researchers 
-* Modules available
-* Data environments available
-* getting involved and our Governance Model
+  * Public? Cloud Vendors? System Integrators? Others? be able to speak to the benefits for other groups too
+* Getting involved, how we add new groups/projects/companies/etc.
+
+Next steps:
+* get happy with the outline above
+* Brian to make placeholders for the above, work on auto-deployment
+* Danielle to help give feedback on the template and suggest changes to layout/images, graphics
+* Sean and all of us helping to refine and get feedback on the site from PIs and others... fill in gaps we have right now
+
 
 ## Install
 
