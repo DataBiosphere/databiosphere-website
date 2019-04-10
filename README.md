@@ -7,7 +7,7 @@ A place to collect content for a data biosphere website.  Right now this is just
 This uses Hugo which lets us write content in Markdown and apply themes to get a pretty website.
 
 Things we want to touch on in the website:
- 
+
 * vision, mission... Apache for biomedical research
   * diagram: updated version of the arch diagram
   * who's a part of Data Biosphere
@@ -20,7 +20,7 @@ Things we want to touch on in the website:
   * Funders - efficiency, repository of reusable vetted components
   * Data Creators & Stewards - off-the-shelf standards based interoperabile components
   * Tool Developers - distribution platform that supports open source licenses
-  * Researchers (Consumers) - trusted components that support the community. Share my work with like-minded researchers 
+  * Researchers (Consumers) - trusted components that support the community. Share my work with like-minded researchers
   * Public? Cloud Vendors? System Integrators? Others? be able to speak to the benefits for other groups too
 * Getting involved, how we add new groups/projects/companies/etc.
 
@@ -70,3 +70,10 @@ hugo server
 # Open the site in your browser
 open http://localhost:1313
 ```
+
+## Useful References
+
+I found the following very helpful when setting this up:
+
+* [How to create a website like freshswift.net using Hugo, Travis CI, and GitHub Pages](https://medium.com/zendesk-engineering/how-to-create-a-website-like-freshswift-net-using-hugo-travis-ci-and-github-pages-67be6f480298)
+* [Hugo, Github, Travis: a step in continuous deployment!](https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/)
