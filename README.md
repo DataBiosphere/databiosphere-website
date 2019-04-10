@@ -30,6 +30,9 @@ Next steps:
 * Danielle to help give feedback on the template and suggest changes to layout/images, graphics
 * Sean and all of us helping to refine and get feedback on the site from PIs and others... fill in gaps we have right now
 
+## Automatic Deployment
+
+This repo is setup to automatically build on [TravisCI](https://travis-ci.org/DataBiosphere/databiosphere-website) and deploy to GitHub pages.  This means any changes you make to the files here will automatically deployed to https://databiosphere-website.github.io
 
 ## Install
 
