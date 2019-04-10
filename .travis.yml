@@ -20,6 +20,10 @@ env:
 
 install:
   - go get github.com/magefile/mage
+  - go get -u -d github.com/magefile/mage
+  - cd ${GOPATH}/src/github.com/magefile/mage
+  - go run bootstrap.go
+  - cd ${TRAVIS_BUILD_DIR}
   - go get -d github.com/gohugoio/hugo
   - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
   - mage vendor
