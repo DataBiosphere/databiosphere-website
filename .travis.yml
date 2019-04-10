@@ -19,7 +19,6 @@ env:
     - DEPLOY_BRANCH="master"
 
 install:
-  - go get github.com/magefile/mage
   - go get -u -d github.com/magefile/mage
   - cd ${GOPATH}/src/github.com/magefile/mage
   - go run bootstrap.go
