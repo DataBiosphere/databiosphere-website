@@ -27,11 +27,11 @@ params:
     image: logo.png
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    - broad
+    - chicago
+    - ucsc
+    - vanderbilt
+    - verily
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
@@ -92,27 +92,27 @@ params:
       - text: App settings
         url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Data Environments
+    subtitle: use ready-to-go Data Biosphere systems
     tiles:
-    - title: App builder
+    - title: Gen3
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Use Gen3 to build your own Data Environment
+      url: https://gen3.org/
+      buttonText: Use Gen3
+    - title: Terra
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      text: Use Terra to find, analyze, and explore data on the Google cloud
+      url: https://terra.bio/
+      buttonText: Ues Terra
+    - title: Dockstore
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      text: Create, share, and use bioinformatics tools and workflows
+      url: https://dockstore.org/
+      buttonText: Use Dockstore
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: About
+    subtitle:
     features:
     - title: Powerful and unified interface
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
@@ -125,13 +125,13 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: Modules
+    subtitle: The building blocks of the Data Biosphere
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
   section4:
-    title: Our Clients love us!
+    title: Users
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
     - name: Irma Walters
@@ -146,6 +146,20 @@ params:
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
       img: 3
+  section6:
+    title: Getting Involved
+    subtitle:
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
