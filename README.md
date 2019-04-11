@@ -2,9 +2,11 @@
 
 A place to collect content for a data biosphere website.  Right now this is just a template and has no content.
 
-## Hugo-based Website
+## Hugo-based Data Biosphere Website
 
 This uses [Hugo](https://gohugo.io/) which lets us write content in Markdown and apply themes to get a pretty website.
+
+### Organization
 
 Things we want to touch on in the website:
 
@@ -24,7 +26,7 @@ Things we want to touch on in the website:
   * Public? Cloud Vendors? System Integrators? Others? be able to speak to the benefits for other groups too
 * Getting involved, how we add new groups/projects/companies/etc.
 
-Next steps:
+### Next steps:
 * get happy with the outline above
 * Brian to make placeholders for the above, work on auto-deployment
 * Danielle to help give feedback on the template and suggest changes to layout/images, graphics
@@ -77,3 +79,4 @@ I found the following very helpful when setting this up:
 
 * [How to create a website like freshswift.net using Hugo, Travis CI, and GitHub Pages](https://medium.com/zendesk-engineering/how-to-create-a-website-like-freshswift-net-using-hugo-travis-ci-and-github-pages-67be6f480298)
 * [Hugo, Github, Travis: a step in continuous deployment!](https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/)
+* this site layout is based on the [Hugo Fresh theme](https://themes.gohugo.io/hugo-fresh/)

@@ -5,11 +5,11 @@ Navbar
 //Navbar
 .navbar.is-fresh {
     position: relative;
-    min-height: 3.8rem;
+    min-height: 5.8rem;
     transition: all .3s;
     z-index: 99;
     .container {
-        min-height: 4rem;
+        min-height: 6rem;
     }
     &.no-shadow {
         box-shadow: none !important;
@@ -21,10 +21,10 @@ Navbar
     }
     //Brand
     .navbar-brand {
-        min-height: 4rem;
+        min-height: 6rem;
         img {
-            max-height: 36px !important;
-            height: 36px;
+            max-height: 80px !important;
+            height: 80px;
         }
         //Removing navbar item default hover behaviour
         &:hover {
@@ -110,6 +110,6 @@ Navbar
     z-index: 100;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
     &.is-active {
-        transform: translateY(0); 
+        transform: translateY(0);
     }
 }

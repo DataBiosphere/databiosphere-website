@@ -1,27 +1,30 @@
 baseURL: https://databiosphere.github.io/databiosphere-website/
 languageCode: en-us
-title: the Data Biosphere
+title: Data Biosphere
 theme: hugo-fresh
 
 params:
   navbarlogo:
   # Logo (from /images/logos/___)
-   image: logos/fresh.svg
+   image: logo.png
    link: /
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [500,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: the Data Biosphere
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: creating a vibrant ecosystem of interoperable modules and data environments for the biomedical community
     # Button text
-    buttontext: Get started
+    buttontext: See Modules
     # Where the main hero button links to
     buttonlink: "#"
+    button2text: See Environments
+    # Where the main hero button links to
+    button2link: "#"
     # Hero image (from /images/___)
-    image: illustrations/worker.svg
+    image: logo.png
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -31,23 +34,29 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
+  - title: About
     url: /
-  - title: Pricing
+  - title: Modules
     url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
+  - title: Data Environments
     url: /
-  - title: Sign up
+  - title: Users
     url: /
-    button: true
+  - title: Getting Involved
+    url: /
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
     logo: fresh-square

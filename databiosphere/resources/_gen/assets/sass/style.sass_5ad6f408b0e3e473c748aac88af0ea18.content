@@ -6181,21 +6181,21 @@ Navbar
 ========================================================================== */
 .navbar.is-fresh {
   position: relative;
-  min-height: 3.8rem;
+  min-height: 5.8rem;
   transition: all .3s;
   z-index: 99; }
   .navbar.is-fresh .container {
-    min-height: 4rem; }
+    min-height: 6rem; }
   .navbar.is-fresh.no-shadow {
     box-shadow: none !important; }
   .navbar.is-fresh .navbar-burger {
     width: 4rem;
     height: 4rem; }
   .navbar.is-fresh .navbar-brand {
-    min-height: 4rem; }
+    min-height: 6rem; }
     .navbar.is-fresh .navbar-brand img {
-      max-height: 36px !important;
-      height: 36px; }
+      max-height: 80px !important;
+      height: 80px; }
     .navbar.is-fresh .navbar-brand:hover .navbar-item {
       background: transparent !important; }
   .navbar.is-fresh .navbar-end {
