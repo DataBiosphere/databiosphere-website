@@ -1,5 +1,7 @@
 # databiosphere-website
 
+[![Build Status](https://travis-ci.org/DataBiosphere/databiosphere-website.svg?branch=master)](https://travis-ci.org/DataBiosphere/databiosphere-website)
+
 A place to collect content for a data biosphere website.  Right now this is just a template and has no content.
 
 ## Hugo-based Data Biosphere Website
