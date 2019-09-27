@@ -127,7 +127,7 @@ params:
   section3:
     title: Modules
     subtitle: The building blocks of the Data Biosphere
-    image: illustrations/mockups/app-mockup.png
+    image: illustrations/databiosphere.png
     buttonText: Get started
     buttonLink: "#"
   section4:

@@ -46,6 +46,7 @@ Setup on a mac:
 
 ## Start Server
 
+    cd databiosphere
     hugo server
 
 And view the site on http://localhost:1313/
