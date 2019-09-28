@@ -17,12 +17,15 @@ params:
     # Hero subtitle (optional)
     subtitle: creating a vibrant ecosystem of interoperable modules and data environments for the biomedical community
     # Button text
-    buttontext: See Modules
+    buttontext: About
     # Where the main hero button links to
-    buttonlink: "#"
-    button2text: See Environments
+    buttonlink: "#About"
+    button2text: Data Environments
     # Where the main hero button links to
-    button2link: "#"
+    button2link: "#Environments"
+    button3text: Modules
+    # Where the main hero button links to
+    button3link: "#Modules"
     # Hero image (from /images/___)
     image: logo.png
     # Footer logos (from /images/logos/clients/___.svg)
@@ -36,11 +39,9 @@ params:
   navbar:
   - title: About
     url: /
-  - title: Modules
-    url: /
   - title: Data Environments
     url: /
-  - title: Users
+  - title: Modules
     url: /
   - title: Getting Involved
     url: /
@@ -130,84 +131,87 @@ params:
     image: illustrations/databiosphere.png
     buttonText: Get started
     buttonLink: "#"
-  section4:
-    title: Users
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section6:
-    title: Getting Involved
+#  section4:
+#    title: Users
+#    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+#    clients:
+#    - name: Irma Walters
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Accountant
+#      img: 1
+#    - name: John Bradley
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Financial Analyst
+#      img: 2
+#    - name: Gary Blackman
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: HR Manager
+#      img: 3
+  section5:
+    title: Getting in Contact
     subtitle:
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  footer:
-    # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
-    quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: Request features
-          link: /
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /
-        - text: Tech articles
-          link: /
-        - text: Video blog
-          link: /
+#  section6:
+#    title: Getting Involved
+#    subtitle:
+#    features:
+#    - title: Powerful and unified interface
+#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+#      # Icon (from /images/illustrations/icons/___.svg)
+#      icon: laptop-globe
+#    - title: Cross-device synchronisation
+#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+#      icon: doc-sync
+#    - title: Nomad system
+#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+#      icon: mobile-feed
+#  footer:
+#    # Logo (from /images/logos/___)
+#    logo: fresh-white-alt.svg
+#    # Social media links (GitHub, Twitter, etc.). All are optional.
+#    socialmedia:
+#    - link: https://github.com/lucperkins/github-fresh
+#      # Icons are from Font Awesome
+#      icon: github
+#    - link: https://dribbble.com/#
+#      icon: dribbble
+#    - link: https://facebook.com/#
+#      icon: facebook
+#    - link: https://twitter.com/lucperkins
+#      icon: twitter
+#    - link: https://bitbucket.org/#
+#      icon: bitbucket
+#    bulmalogo: false
+#    quicklinks:
+#      column1:
+#        title: "Product"
+#        links:
+#        - text: Discover features
+#          link: /
+#        - text: Why choose our product?
+#          link: /
+#        - text: Compare features
+#          link: /
+#        - text: Our roadmap
+#          link: /
+#        - text: Request features
+#          link: /
+#      column2:
+#        title: "Docs"
+#        links:
+#        - text: Get started
+#          link: /
+#        - text: User guides
+#          link: /
+#        - text: Admin guide
+#          link: /
+#        - text: Developers
+#          link: /
+#      column3:
+#        title: "Blog"
+#        links:
+#        - text: Latest news
+#          link: /
+#        - text: Tech articles
+#          link: /
+#        - text: Video blog
+#          link: /
