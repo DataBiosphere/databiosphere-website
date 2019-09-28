@@ -92,25 +92,6 @@ params:
         url: /
       - text: App settings
         url: /
-  section1:
-    title: Data Environments
-    subtitle: use ready-to-go Data Biosphere systems
-    tiles:
-    - title: Gen3
-      icon: mouse-globe
-      text: Use Gen3 to build your own Data Environment
-      url: https://gen3.org/
-      buttonText: Use Gen3
-    - title: Terra
-      icon: laptop-cloud
-      text: Use Terra to find, analyze, and explore data on the Google cloud
-      url: https://terra.bio/
-      buttonText: Ues Terra
-    - title: Dockstore
-      icon: plug-cloud
-      text: Create, share, and use bioinformatics tools and workflows
-      url: https://dockstore.org/
-      buttonText: Use Dockstore
   section2:
     title: About
     subtitle:
@@ -125,6 +106,25 @@ params:
     - title: Nomad system
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
+  section1:
+    title: Data Environments
+    subtitle: use ready-to-go Data Biosphere systems
+    tiles:
+    - title: Gen3
+      icon: mouse-globe
+      text: Use Gen3 to build your own Data Environment
+      url: https://gen3.org/
+      buttonText: Use Gen3
+    - title: Terra
+      icon: laptop-cloud
+      text: Use Terra to find, analyze, and explore data
+      url: https://terra.bio/
+      buttonText: Ues Terra
+    - title: Dockstore
+      icon: plug-cloud
+      text: Create, share, and use bioinformatics workflows
+      url: https://dockstore.org/
+      buttonText: Use Dockstore
   section3:
     title: Modules
     subtitle: The building blocks of the Data Biosphere
