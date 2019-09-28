@@ -21,7 +21,7 @@ env:
 install:
   - go get -d github.com/gohugoio/hugo
   - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
-  - go install
+  - go install --tags extended
   - cd ${TRAVIS_BUILD_DIR}
 
 script:
