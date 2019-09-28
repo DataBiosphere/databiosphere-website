@@ -22,10 +22,10 @@ params:
     buttonlink: "#About"
     button2text: Data Environments
     # Where the main hero button links to
-    button2link: "#Environments"
-    button3text: Modules
+    button2link: "#Data Environments"
+    button3text: Modular Components
     # Where the main hero button links to
-    button3link: "#Modules"
+    button3link: "#Modular Components"
     # Hero image (from /images/___)
     image: logo.png
     # Footer logos (from /images/logos/clients/___.svg)
@@ -38,13 +38,13 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
-    url: '{{ #About }}'
+    url: '#About'
   - title: Data Environments
-    url: /
-  - title: Modules
-    url: /
+    url: '#Data Environments'
+  - title: Modular Components
+    url: '#Modular Components'
   - title: Getting Involved
-    url: /
+    url: '#Getting Involved'
   # - title: Dropdown
   #   sublinks:
   #   - title: Dropdown item
@@ -151,7 +151,7 @@ params:
 #      job: HR Manager
 #      img: 3
   section5:
-    title: Getting in Contact
+    title: Getting Involved
     subtitle:
 #  section6:
 #    title: Getting Involved

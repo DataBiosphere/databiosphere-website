@@ -32,8 +32,9 @@ script:
   - hugo
 
 deploy:
-  - provider: pages
+  - provider: pages:git
     edge: true
-    github_token: ${GITHUB_TOKEN}
+    token: ${GITHUB_TOKEN}
     local_dir: databiosphere/public
-    skip_cleanup: true
+    cleanup: false
+    keep_history: true
