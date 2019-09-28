@@ -2,6 +2,7 @@
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
+{{ $_hugo_config := `{ "version": 1 }` }}
 <section class="section section-feature-grey is-medium">
   <div class="container">
     <div class="columns">
@@ -23,7 +24,7 @@
               <p>
                 <span class="icon-box-title">{{ .title }}</span>
 
-                <span class="icon-box-text">{{ .text }}</span>
+                <span class="icon-box-text">{{ .text | markdownify }}</span>
               </p>
             </div>
           </div>

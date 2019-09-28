@@ -96,16 +96,19 @@ params:
     title: About
     subtitle:
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Problems the Data Biosphere is trying to solve
+      text: 'Modern technologies produce enormous datasets in the life sciences which researchers struggle to manage.  Genomics dataset sizes can easily be in the terabyte or even petabyte range, making it difficult to extract meaning for all but a few.  The obvious solution is cloud-based data storage and computation designed to make biomedical research more accessible. But, how should these systems be designed?  In our [blog post](https://medium.com/@benedictpaten/a-data-biosphere-for-biomedical-research-d212bbfae95d) we explore the motivations for creating the Data Biosphere organization and the approaches we think are key to its missions.'
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: The principles of the Data Biosphere
+      text: 'We created the Data Biosphere with the idea of cultivating a vibrant ecosystem of modular and interoperable components that can be assembled into diverse data environments. The Data Biosphere is based on four governing principles: it should be: 1. modular, composed of functional components with well-specified interfaces; 2. community-driven, created by many groups to foster a diversity of ideas; 3. open, developed under open-source licenses that enable extensibility and reuse, with users able to add custom, proprietary modules as needed; and 4. standards-based, consistent with standards developed by coalitions such as the [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org).'
       icon: mobile-feed
+    - title: Modules and Data Environments in the Data Biosphere
+      text: 'The Data Biosphere will work best if it is designed around key modular components — each having discrete capabilities and clear rules of interaction, and each served by multiple alternative implementations.  In the Data Biosphere, Modules Components are the critical building blocks, but they are not alone enough to meet the needs of the biomedical community.  In addition we need Data Environments, or suites of services assembled from the Modular Components, that allow users to carry out a set of related tasks in an easy way.  We envision multiple Data Environments, targeting a diversity of communities, use cases, and data types.'
+      icon: doc-sync
+    - title: The state of the Data Biosphere
+      text: 'The biomedical community has already begun the work of creating the Data Biosphere. We, along with many others, are actively contributing to the GA4GH definitions of standard interfaces and are currently developing Modular Components and data environments as part of the Data Biosphere effort. We share many of our reusable modules on our [GitHub organization](https://github.com/DataBiosphere) and full Data Environments are already operational and used by many researchers each and every day.  We invite further contributions by the community and encourage you to contact us to learn more.'
+      icon: plug-cloud
   section1:
     title: Data Environments
     subtitle: use ready-to-go Data Biosphere systems
@@ -126,11 +129,11 @@ params:
       url: https://dockstore.org/
       buttonText: Use Dockstore
   section3:
-    title: Modules
-    subtitle: The building blocks of the Data Biosphere
+    title: Modular Components
+    subtitle: The building blocks of the Data Biosphere, explore our GitHub organization to see modules shared with the communmity.
     image: illustrations/databiosphere.png
-    buttonText: Get started
-    buttonLink: "#"
+    buttonText: Data Biosphere on GitHub
+    buttonLink: "https://github.com/DataBiosphere"
 #  section4:
 #    title: Users
 #    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
