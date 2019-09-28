@@ -38,7 +38,7 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
-    url: /
+    url: '{{ #About }}'
   - title: Data Environments
     url: /
   - title: Modules
