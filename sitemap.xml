@@ -4,17 +4,14 @@
   
   <url>
     <loc>https://databiosphere.github.io/databiosphere-website/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://databiosphere.github.io/databiosphere-website/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://databiosphere.github.io/databiosphere-website/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
