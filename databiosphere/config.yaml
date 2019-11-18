@@ -122,7 +122,7 @@ params:
       icon: laptop-cloud
       text: Use Terra to find, analyze, and explore data
       url: https://terra.bio/
-      buttonText: Ues Terra
+      buttonText: Use Terra
     - title: Dockstore
       icon: plug-cloud
       text: Create, share, and use bioinformatics workflows
